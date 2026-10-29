@@ -1,6 +1,13 @@
 ### Hi, I'm Dat 👋
 
-Backend engineer turned AI engineer. I build production Java/Spring systems and bring LLM agents into real software, beyond the demo.
+Java backend engineer with 6 years of shipping production systems in fintech and banking. Backend is my core: Spring Boot microservices, auth, and data. I can also carry a feature end to end across web and Kotlin Multiplatform mobile. Lately I build agentic AI into real software with the same discipline: human gates, guardrails, and tests.
+
+I also mentor students into their first engineering jobs, and some of them now work as software engineers.
+
+- 🔭 Building **chapter-forge**, an AI SDLC harness for a Java backend team
+- 🌱 Exploring Spring AI, evals, and agent observability
+- 🧑‍🏫 Mentoring students on Java backend and AI-assisted engineering
+- 💬 Ask me about microservices, passkeys, Claude Code, and AI-native teams
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-leonard--trinh-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonard-trinh/)
 [![Email](https://img.shields.io/badge/Email-trinhvandat90399%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:trinhvandat90399@gmail.com)
@@ -24,7 +31,7 @@ Backend engineer turned AI engineer. I build production Java/Spring systems and 
 
 **🤖 AI engineering**
 
-- [**chapter-forge**](https://github.com/Aibles-Java/chapter-forge) — AI SDLC harness I created and maintain for the Java chapter at Aibles: 15 role agents, 8-phase pipeline with human gates, banking-grade PII/secret guardrails, polyrepo context MCP
+- [**chapter-forge**](https://github.com/trinhvandat/chapter-forge) — AI SDLC harness I created and maintain for a Java backend team: 15 role agents, 8-phase pipeline with human gates, banking-grade PII/secret guardrails, polyrepo context MCP
 - [**second-brain**](https://github.com/trinhvandat/second-brain) — LLM Wiki knowledge base over MCP, no vector DB
 - [**super-memory-plugin**](https://github.com/trinhvandat/supper-memory-pluggin) — persistent product memory for Claude Code
 - [**shipwithai-plugins**](https://github.com/ShipWithAI/shipwithai-plugins) — Claude Code plugins (team)
@@ -56,8 +63,9 @@ Backend engineer turned AI engineer. I build production Java/Spring systems and 
 | **Backend** | Java · Kotlin · Spring Boot · Spring Cloud Gateway |
 | **Data** | PostgreSQL · MongoDB · Redis · Kafka |
 | **Infra** | Docker · GitHub Actions · Pulumi |
+| **Web & mobile** | React · TypeScript · Kotlin Multiplatform · Compose Multiplatform |
 | **AI** | Claude API · MCP · Spring AI · Agents · Evals |
-| **Learning** | LangChain4j · OpenTelemetry · Kotlin Multiplatform |
+| **Learning** | LangChain4j · OpenTelemetry |
 
 ---
 
@@ -68,7 +76,7 @@ flowchart LR
   A[Discover] -->|G0| B[Design] -->|G1| C[Plan] --> D[Develop] --> E[Test] -->|G2| F[Release] -->|G3| G[Deploy] --> H[Operate]
 ```
 
-I packaged this process as [**chapter-forge**](https://github.com/Aibles-Java/chapter-forge), the Claude Code harness our Java chapter at Aibles runs on: AI agents prepare the evidence at every phase — requirements, threat models, ADRs, tests, release notes — while gates G0–G3 stay with humans. Review agents are independent from coding agents (four-eyes), and guardrail hooks keep PII, secrets, and prod-touching commands out of reach.
+I packaged this process as [**chapter-forge**](https://github.com/trinhvandat/chapter-forge), the Claude Code harness my team ships with: AI agents prepare the evidence at every phase — requirements, threat models, ADRs, tests, release notes — while gates G0–G3 stay with humans. Review agents are independent from coding agents (four-eyes), and guardrail hooks keep PII, secrets, and prod-touching commands out of reach.
 
 ---
 
