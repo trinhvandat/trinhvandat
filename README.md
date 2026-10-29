@@ -50,7 +50,7 @@ Backend engineer turned AI engineer. I build production Java/Spring systems and 
 
 ### 🧰 Tech stack
 
-| | |
+| Area | Tools |
 |---|---|
 | **Backend** | Java · Kotlin · Spring Boot · Spring Cloud Gateway |
 | **Data** | PostgreSQL · MongoDB · Redis · Kafka |
@@ -72,12 +72,14 @@ AI-assisted at every step with Claude Code.
 
 ---
 
+<!-- TODO: enable with blog-post-workflow once the blog RSS feed is set
 ### ✍️ Latest writing
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+BLOG-POST-LIST:START
+BLOG-POST-LIST:END
 
 ---
+-->
 
 ### 📫 Let's connect
 
