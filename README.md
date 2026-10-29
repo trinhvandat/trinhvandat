@@ -24,7 +24,7 @@ Backend engineer turned AI engineer. I build production Java/Spring systems and 
 
 **🤖 AI engineering**
 
-- [**chapter-forge**](https://github.com/trinhvandat/chapter-forge) — AI SDLC harness for a banking Java team: 15 role agents, 8-phase pipeline with human gates, PII/secret guardrails, polyrepo context MCP
+- [**chapter-forge**](https://github.com/Aibles-Java/chapter-forge) — AI SDLC harness I created and maintain for the Java chapter at Aibles: 15 role agents, 8-phase pipeline with human gates, banking-grade PII/secret guardrails, polyrepo context MCP
 - [**second-brain**](https://github.com/trinhvandat/second-brain) — LLM Wiki knowledge base over MCP, no vector DB
 - [**super-memory-plugin**](https://github.com/trinhvandat/supper-memory-pluggin) — persistent product memory for Claude Code
 - [**shipwithai-plugins**](https://github.com/ShipWithAI/shipwithai-plugins) — Claude Code plugins (team)
@@ -68,7 +68,7 @@ flowchart LR
   A[Discover] -->|G0| B[Design] -->|G1| C[Plan] --> D[Develop] --> E[Test] -->|G2| F[Release] -->|G3| G[Deploy] --> H[Operate]
 ```
 
-Packaged as [**chapter-forge**](https://github.com/trinhvandat/chapter-forge): AI agents prepare the evidence at every phase — requirements, threat models, ADRs, tests, release notes — while gates G0–G3 stay with humans. Review agents are independent from coding agents (four-eyes), and guardrail hooks keep PII, secrets, and prod-touching commands out of reach.
+I packaged this process as [**chapter-forge**](https://github.com/Aibles-Java/chapter-forge), the Claude Code harness our Java chapter at Aibles runs on: AI agents prepare the evidence at every phase — requirements, threat models, ADRs, tests, release notes — while gates G0–G3 stay with humans. Review agents are independent from coding agents (four-eyes), and guardrail hooks keep PII, secrets, and prod-touching commands out of reach.
 
 ---
 
