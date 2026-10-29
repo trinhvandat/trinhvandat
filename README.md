@@ -24,6 +24,7 @@ Backend engineer turned AI engineer. I build production Java/Spring systems and 
 
 **🤖 AI engineering**
 
+- [**chapter-forge**](https://github.com/trinhvandat/chapter-forge) — AI SDLC harness for a banking Java team: 15 role agents, 8-phase pipeline with human gates, PII/secret guardrails, polyrepo context MCP
 - [**second-brain**](https://github.com/trinhvandat/second-brain) — LLM Wiki knowledge base over MCP, no vector DB
 - [**super-memory-plugin**](https://github.com/trinhvandat/supper-memory-pluggin) — persistent product memory for Claude Code
 - [**shipwithai-plugins**](https://github.com/ShipWithAI/shipwithai-plugins) — Claude Code plugins (team)
@@ -64,11 +65,10 @@ Backend engineer turned AI engineer. I build production Java/Spring systems and 
 
 ```mermaid
 flowchart LR
-  A[Discovery<br/>PRD] --> B[Design<br/>C4 · ADR] --> C[Build<br/>TDD] --> D[QA<br/>Review · e2e] --> E[Release<br/>CI/CD] --> F[Operate<br/>Tracing]
+  A[Discover] -->|G0| B[Design] -->|G1| C[Plan] --> D[Develop] --> E[Test] -->|G2| F[Release] -->|G3| G[Deploy] --> H[Operate]
 ```
 
-AI-assisted at every step with Claude Code.
-<!-- TODO: link the packaged skills once public: [sdlc-workflow](https://github.com/trinhvandat/sdlc-workflow) -->
+Packaged as [**chapter-forge**](https://github.com/trinhvandat/chapter-forge): AI agents prepare the evidence at every phase — requirements, threat models, ADRs, tests, release notes — while gates G0–G3 stay with humans. Review agents are independent from coding agents (four-eyes), and guardrail hooks keep PII, secrets, and prod-touching commands out of reach.
 
 ---
 
